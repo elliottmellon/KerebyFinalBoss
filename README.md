@@ -1,3 +1,13 @@
-# KerebyFinalBoss
-Webscraper built to get you an apartment in weeks, not months!
-This of course requires a few things not explicitly shown here, like Telegram, and a bot configured there, but that is pretty easy. 
+# KerebyFinalBossScript
+
+This script uses Playwright to monitor apartment rental listings and send updates via Telegram bot.
+
+## Features
+- Scrapes listings from [Kereby](https://kerebyudlejning.dk/)
+- Detects new apartments
+- Sends notifications via Telegram
+
+## How to use
+1. Create a Telegram bot with BotFather
+2. Replace `BOT_TOKEN` and `CHAT_ID` in the script with your credentials
+3. Run the script with `python main.py`
